@@ -1,0 +1,146 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4f4; /* Light gray background for the entire page */
+  flex-direction: column;
+}
+
+/* Main Container */
+.p-6 {
+  padding: 1.5rem; /* Padding for main container */
+}
+
+/* Button Styles */
+button {
+  cursor: pointer; /* Pointer cursor for buttons */
+}
+
+/* Add User Button - Positioned at top-right */
+.bg-green-500 {
+  background-color: #48bb78; /* Green background for Add User button */
+  color:white;
+}
+
+.bg-green-500:hover {
+  background-color: #38a169; /* Darker green on hover */
+}
+
+/* Flexbox for User List */
+.flex {
+  display: flex; /* Flexbox layout */
+}
+
+.justify-between {
+  justify-content: space-between; /* Space between flex items */
+}
+
+.items-center {
+  align-items: center; /* Center items vertically */
+}
+
+/* Header Styles */
+.text-xl {
+  font-size: 24px; /* Title font size */
+  margin-bottom: 16px; /* Space below the title */
+}
+
+/* Message Styles */
+.text-green-600 {
+  color: green; /* Green color for success messages */
+  text-align: center; /* Center align the message */
+  font-weight: bold; /* Bold font */
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%; /* Full width */
+  height: 40px; /* Fixed height for uniformity */
+  padding: 10px; /* Padding for better touch targets */
+  margin: 10px 0; /* Vertical spacing between inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Consistent font size */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* User List Styles */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+li {
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: space-between; /* Space between elements */
+  align-items: center; /* Center align items vertically */
+  padding: 8px; /* Padding for list items */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 5px; /* Space between list items */
+  background-color: #fff; /* White background for list items */
+}
+
+/* Button Hover Effects */
+.bg-blue-500 {
+  background-color: #007bff; /* Blue background for submit button */
+  color: white; /* White text */
+}
+
+.bg-blue-500:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.bg-yellow-500 {
+  background-color: #ffc107; /* Yellow background for edit button */
+  color: white; /* White text */
+}
+.bg-yellow-500:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.bg-red-500 {
+  background-color: #dc3545; /* Red background for delete button */
+  color: white; /* White text */
+}
+
+.bg-red-500:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Success and Error Messages */
+.success {
+  color: green;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position:absolute;
+}
+
+.right-4{
+  right:1rem;
+}
+
+.top-4{
+  top:1rem;
+}
